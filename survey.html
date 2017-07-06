@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="survey.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="col-md-4"></div>
+    <div class="col-md-4 center">
+<h1 id="title">
+    Short Social Media Survey
+</h1>
+
+<p id="discription">This survey is used to track Social Media trends</p>
+<form id="survey-form">
+    <ul>
+        <li> First: <input type="text" name="firstname" id="nameFirst" placeholder="Will" required></li>
+        
+        <li> Last: <input type="text" name="lastname" id="nameLast" placeholder="Smith" required></li>
+        
+        <li> Email: <input type="email" name="email" id="email" placeholder="FreshPrince@gmail.com" required></li>
+        
+        <li> Age: <input type="number" name="number" id="age" placeholder="45" required></li>
+        
+        <li> Favorite Social Media:</li> 
+        <li> <input type="radio" id="socialMediaFav" value="Facebook" required> &nbsp;Facebook</li>
+        <li> <input type="radio" id="socialMediaFav" value="Snapchat" required> &nbsp;Snapchat</li>
+        <li> <input type="radio" id="socialMediaFav" value="Instagram" required> &nbsp;Instagram</li>
+        <li> <input type="radio" id="socialMediaFav" value="YouTube" required> &nbsp;YouTube</li>
+        <li> <input type="radio" id="socialMediaFav" value="Twitter" required> &nbsp;Twitter</li>
+        <li> <input type="radio" id="socialMediaFav" value="LinkedIn" required> &nbsp;LinkedIn</li>
+        <li> Social Media you use at least weekly<br>(Check all that apply):</li> 
+        <li> <input type="checkbox" name="email" id="socialMediaWeekly" value="Facebook" > &nbsp;Facebook</li>
+        <li> <input type="checkbox" name="email" id="socialMediaWeekly" value="Snapchat" > &nbsp;Snapchat</li>
+        <li> <input type="checkbox" name="email" id="socialMediaWeekly" value="Instagram" > &nbsp;Instagram</li>
+        <li> <input type="checkbox" name="email" id="socialMediaWeekly" value="YouTube" > &nbsp;YouTube</li>
+        <li> <input type="checkbox" name="email" id="socialMediaWeekly" value="Twitter" > &nbsp;Twitter</li>
+        <li> <input type="checkbox" name="email" id="socialMediaWeekly" value="LinkedIn" > &nbsp;LinkedIn</li>
+        <li>What type of cell phone do you use daily?: <select name="phone"> 
+                <option value="IPhone"> IPhone</option>
+                <option value="Samsung"> Samsung</option>
+                <option value="Motorola"> Motorola</option>
+                <option value="LG"> LG</option>
+                <option value="Other Smart Phone"> Other (please write in brand below)</option>
+        
+        <textarea class="form-control" rows="1" cols="50" id="comment"></textarea>
+        </li>
+        <li><input type="submit" value="submit" id="submit"></li>
+        </ul>
+</form>
+</div>
+<div class="col-md-4"></div>
+
+    
+</body>
+</html>
+

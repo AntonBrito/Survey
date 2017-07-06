@@ -1,0 +1,41 @@
+h1, p {
+    text-align:center;
+}
+
+ul, li {
+    list-style-type: none;
+    padding:0.25em;
+    background-color:white;
+    font-weight:700;
+}
+body {
+    background-image:url(photos/background-social.jpg);
+    background-size:cover;
+}
+
+form {
+    padding: 1em 0;
+    border: 1em 0;
+    margin: 1em 0;
+}
+
+.center {
+    background-color:white;
+}
+
+#comment {
+    width:15em;
+    height:3em;
+}
+
+#title {
+    font-family:impact;
+}
+
+#discription {
+    font-size:20px;
+}
+
+#submit {
+    margin:1em;
+}
